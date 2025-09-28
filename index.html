@@ -1,1 +1,40 @@
-Hello, world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pavelhosek.cz</title>
+  <style>
+    /* Import a modern Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #001f3f; /* Dark blue */
+      font-family: 'Inter', sans-serif;
+      color: #ffffff; /* Bright text */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 2s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <h1>pavelhosek.cz</h1>
+</body>
+</html>
