@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>pavelhosek.cz</title>
   <style>
-    /* Import a modern Google Font */
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    /* Slim modern font */
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap');
 
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       background-color: #001f3f; /* Dark blue */
-      font-family: 'Inter', sans-serif;
-      color: #ffffff; /* Bright text */
+      font-family: 'Manrope', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
-      opacity: 0;
-      animation: fadeIn 2s ease-out forwards;
-    }
-
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
     }
 
     h1 {
+      color: #ffffff; /* Bright white */
+      font-weight: 300; /* Slim weight */
       font-size: 2.5rem;
-      letter-spacing: 1px;
+      opacity: 0;
+      animation: fadeInText 2s ease-out forwards;
+    }
+
+    @keyframes fadeInText {
+      to {
+        opacity: 1;
+      }
     }
   </style>
 </head>
